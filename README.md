@@ -21,7 +21,8 @@ I’m not sure if this is the right way to do it but for the moment I’m famili
 * `"react-navigation": "^2.11.2"`
 From this one I used `createMaterialTopTabNavigator` which actually came with very useful gesture-based navigation between the screens already built-in (exactly what was required)
 
-After that, I moved everything I had already done to a new project but this time I created it with support for Native Code and the idea that I need to import the project to Android Studio in order to generate an apk file. Here I stumbled across a couple of issues with some of the dependencies versions and other problems until finally the project was built successful. The structure here looks a little bit different than what I’m used to, so I didn’t touch anything except generating the apk file with the Gradle task `assembleDebug` (and `assembleRelease` just in case).
+After that, I moved everything I had already done to a new project but this time I created it with support for Native Code and the idea that I need to import the project to Android Studio in order to generate an apk file. Here I stumbled across a couple of issues with some of the dependencies versions and other problems until finally the project was built successful. The structure here looks a little bit different than what I’m used to, so I didn’t touch anything except generating the apk file with the Gradle task `assembleDebug`.
+<b>You can find the APK in the android folder.</b>
 
 I tried to add as much comments as possible in my code so that everything is well documented and easy to follow.
 
